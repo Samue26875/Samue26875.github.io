@@ -1,12 +1,158 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Gameing Webpage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        #titleFlex {
+            width: 100%;
+            background-color: cadetblue;
+            display: flex;
+            justify-content: center;
+        }
+
+
+
+        #backgroundFlex {
+            height: 100%;
+            width: auto;
+            background-color: darkgray;
+            padding: 5px;
+        }
+
+
+        .mainContentPage {
+            border-style: solid;
+            border-color: black;
+            box-shadow: 5px 2px;
+            display: block;
+            padding: 10px;
+            background-color: white;
+            margin: 15px;
+            width: 50%;
+            height: auto;
+        }
+
+
+        .tableOfContentPage {
+            border-style: solid;
+            border-color: black;
+            box-shadow: 5px 2px;
+            padding: 10px;
+            background-color: white;
+            margin: 20px;
+            width: 30%;
+            height: 50%;
+            float: right;
+            display: block;
+        }
+
+
+/* Mobile reactive area */
+
+        @media screen and (max-width: 500px) {
+
+            #titleFlex {
+                width: 100%;
+                background-color: green;
+                display: flex;
+                justify-content: center;
+            }
+
+
+            .tableOfContentPage {
+                background-color: orange;
+                display: block;
+                
+                float: none;
+                width: auto;
+                height: auto;
+                justify-content: left;
+            }
+
+
+
+            .mainContentPage {
+                background-color: yellow;
+                display: block;
+                width: auto;
+                height: auto;
+                padding: 5px;
+                margin: 15px;
+            }
+
+
+
+
+
+
+
+
+            #backgroundFlex {
+                height: 100%;
+                width: auto;
+                background-color: darkgray;
+            }
+
+        }
+   
+/* End of mobile reacive programing */
+
+    </style>
 </head>
+
+<!-- This shit makes me want to cry (negative connotation) -->
+
 <body>
-   <a href="gettoschool4\index.html">Click here to get gameing, gamer</a>
+    <div id="titleFlex">
+        <h1>
+            <marquee>What I Learned In Programming</marquee>
+        </h1>
+    </div>
+    <div id="backgroundFlex">
+
+        <div class="tableOfContentPage">
+            <p>
+            <h1>
+                <center>Table Of Contents</center>
+            </h1>
+            </p>
+
+        <p>
+            <ul>
+                <li><a href="aboutMePage.html">About The Dev</a></li>
+                <li><a href="inspirationPage.html">Who Inspires Me</a></li>
+                <li><a href="laterPlansPage.html">What I Plan To Do</a></li>
+                <li><a href="functioningGamePage.html">I Made A Game</a></li>
+            
+                
+                
+                
+            </ul>
+        </p>
+                
+        </div>
+            
+
+
+
+        <div class="mainContentPage">
+
+            <p>
+            <h1>
+                <center>Basics Of HTML Programming</center>
+            </h1>
+            </p>
+            The language that is essental for basic web design. I got to learn the basics of what makes a website a
+            website and got to develop multiple like this. Although the website looks fairly barebones, this site is (at
+            the time of writing. 148 lines of code. There is much more that i still need to learn about web design and
+            other key comp
+            <p>
+        </div>
+
+
+    </div>
 </body>
+
 </html>

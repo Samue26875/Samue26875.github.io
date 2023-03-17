@@ -1,0 +1,211 @@
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        #titleFlex {
+            width: 100%;
+            background-color: cadetblue;
+            display: flex;
+            justify-content: center;
+        }
+
+
+
+        #backgroundFlex {
+            height: 100%;
+            width: auto;
+            background-color: darkgray;
+            padding: 5px;
+        }
+
+
+
+
+
+
+
+
+        .mainContentPage {
+            border-style: solid;
+            border-color: black;
+            box-shadow: 5px 2px;
+            display: block;
+            padding: 10px;
+            background-color: white;
+            margin: 15px;
+            width: 50%;
+            height: auto;
+        }
+
+
+        .tableOfContentPage {
+            border-style: solid;
+            border-color: black;
+            box-shadow: 5px 2px;
+            padding: 10px;
+            background-color: white;
+            margin: 20px;
+            width: 30%;
+            height: 50%;
+            float: right;
+            display: block;
+
+        }
+
+
+
+
+
+
+
+
+
+
+        @media screen and (max-width: 500px) {
+
+            #titleFlex {
+                width: 100%;
+                background-color: green;
+                display: flex;
+                justify-content: center;
+            }
+
+
+            .tableOfContentPage {
+                background-color: orange;
+                display: block;
+                
+                float: none;
+                width: auto;
+                height: auto;
+                justify-content: left;
+            }
+
+
+
+            .mainContentPage {
+                background-color: yellow;
+                display: block;
+                width: auto;
+                height: auto;
+                padding: 5px;
+                margin: 15px;
+
+
+            }
+
+
+
+
+
+
+            #backgroundFlex {
+                height: 100%;
+                width: auto;
+                background-color: darkgray;
+
+
+
+
+
+
+
+
+
+
+
+            }
+
+
+
+
+
+
+
+
+
+            /* (Note: I may revamp and/or reuse this segment) */
+
+
+        }
+
+
+        /* use float: right; with larger margin for table of contents*/
+    </style>
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+    <div id="titleFlex">
+        <h1>
+            <marquee>What I Learned In Programming</marquee>
+        </h1>
+    </div>
+    <div id="backgroundFlex">
+
+        <div class="tableOfContentPage">
+            <p>
+            <h1>
+                <center>Table Of Contents</center>
+            </h1>
+            </p>
+
+        <p>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Stuff</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">More Stuff</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Even More Stuff!</a></li>
+            </ul>
+        </p>
+                
+        </div>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="mainContentPage">
+
+            <p>
+            <h1>
+                <center>About The Dev</center>
+            </h1>
+            </p>
+            My name is Samuel Ness. Either you found this pae by sheer luck or your my programming instructor (Hi Mr.Smith). I currently am 14 years old and an aspiring dev. Maybe later ill release this to the public if I (somehow) mae it big as a programmer. Right now, chances of that are looking low.
+            <p>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
